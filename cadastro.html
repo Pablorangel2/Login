@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <form class="formulario_de_registro">
+        <h2 id="cadastro-h2">Cadastro</h2>
+        <div class="grupo_de_entrada">
+            <label for="text">Nome completo:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div class="grupo_de_entrada">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div class="grupo_de_entrada">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            <label for="senha">Confirme a senha:</label>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <div class="grupo_de_entrada">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="grupo_de_entrada">
+            <label for="text">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" min="11" max="16" required>
+        </div>
+    
+        <div class="grupo_de_entrada">
+            <label for="data-nascimento">Data de nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" required>
+        </div> 
+        <div class="grupo_de_entrada">
+            <button class="confirmar" onclick="confirmar()">Confirmar</button>
+            <button onclick="voltarPagina()">Cancelar</button>
+        </div>
+
+        <div class="grupo_de_entrada_aceitar">
+            <label for="sexo">Aceitar os termos de serviços!</label>
+            <input type="radio" name="termos" value="sim ou nao"> 
+        </div>
+        <script>
+            function voltarPagina() {
+              history.back(); // Função para voltar para a página anterior
+            }
+            function confirmar() {
+              window.location.href = "menu.html";
+            }
+          </script>
+    </form>
+    
+    
+</body>
+</html>

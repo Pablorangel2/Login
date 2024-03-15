@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkslategrey;
+    margin: 0;
+    padding: 0;
+}
+.redefinir_senha {
+    width: 240px;
+    height: 280px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid rgb(196, 161, 161);
+    box-shadow: 0 0 2px rgb(196, 161, 161),
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    position: relative;
+    top: 5rem;
+}
+h2 {
+    border-bottom: 2px solid rgb(196, 161, 161);
+    border-right: 2px solid rgb(196, 161, 161);
+    box-shadow: 0 0 2px rgb(196, 161, 161),
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    color: rgb(39, 68, 68);
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 1.2rem;
+    font-size: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    height: 1.1rem;
+    font-weight: bold;
+    font-size: 12px;
+   
+}
+
+input {
+    display: block;
+    width: 90%;
+    height: 1.1rem;
+    padding: 3px;
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 2px solid rgb(196, 161, 161);
+    border-right: 2px solid rgb(196, 161, 161);
+    box-shadow: 0 0 4px rgb(196, 161, 161),
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    color: rgb(39, 68, 68);
+    margin-bottom: 4px;
+    
+}
+button {
+    position: relative;
+    top: 2.5rem;
+    left: 4rem;
+    padding: 3px;
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 2px solid rgb(196, 161, 161);
+    border-right: 2px solid rgb(196, 161, 161);
+    box-shadow: 0 0 1px rgb(196, 161, 161),
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    font-size: 12px;
+}
+button:hover {
+    background-color: rgb(196, 161, 161);
+    color: black;
+}
