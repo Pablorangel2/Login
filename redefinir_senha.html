@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redefinir senha</title>
     <link rel="stylesheet" href="redefinir_senha.css">
+    <link rel="stylesheet" href="menu.html">
+    <link rel="stylesheet" href="cadastro.html">
 </head>
 <body>
 
 <div class="redefinir_senha">
     <h2>Redefinir Senha</h2>
     <form action="script_redefinir_senha" method="post">
-        <label for="email">Endereço de E-mail:</label>
-        <input type="email" id="email" name="email" required>
+        <label for="senha_antiga">Senha Antiga:</label>
+        <input type="password" id="password" name="password" required>
 
         <label for="nova-senha">Nova Senha:</label>
         <input type="password" id="nova-senha" name="nova-senha" required>
