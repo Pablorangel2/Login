@@ -55,7 +55,8 @@ input {
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 4px;
     color: rgb(39, 68, 68);
-    margin-bottom: 4px;
+    margin-bottom: 1px;
+    outline: none;
     
 }
 button {
