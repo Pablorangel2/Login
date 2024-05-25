@@ -1,0 +1,165 @@
+body {
+    
+    width: auto;
+    height: auto;
+    background-color:darkslategrey
+}
+
+
+.menu {
+    width: 280px;
+    height: 380px;
+    padding: 10px 20px;
+    position: relative;
+    top: 6rem;
+    margin: auto;
+    box-shadow: 0 0 10px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(196, 161, 161);
+    border-radius: 8px;
+    
+}
+
+
+.menu h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    border-bottom: 5px solid rgb(196, 161, 161);
+    border-right: 4px solid rgb(196, 161, 161);
+    box-shadow: 0 0 10px rgb(196, 161, 161),
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+    color: rgb(39, 68, 68);
+    
+}
+.entrar input {
+    border-radius: 4px;
+    box-shadow: 0 0 1px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 4px solid rgb(196, 161, 161);
+    border-right: 3px solid rgb(196, 161, 161);
+    padding: 2;
+    position: relative;
+    outline: none;
+    width: 90%;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+.entrar_botoes button:hover {
+    background-color: rgb(196, 161, 161);
+    color: black;;
+}
+#menu_usuario {
+    margin-bottom: 1%;
+}
+
+.entrar input::placeholder {
+    color: black;
+    font: bold;
+}
+
+.entrar_botoes button{
+    cursor: pointer;
+    position: relative;
+    left: 4.8rem;
+    padding: 1px 5px 1px 5px;
+    margin: auto 0;
+    top: 1rem;
+    border-radius: 2px; 
+    box-shadow: 0 0 1px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 3px solid rgb(196, 161, 161);
+    border-right: 3px solid rgb(196, 161, 161);
+    font-weight: bold;
+    background-color: transparent;    
+}
+
+.icons_entrar {
+    position: relative;
+    top: 1.2rem;
+    padding: 2px;
+
+}
+
+.icons_entrar span {
+    background-color: transparent;
+    border-radius: 2px; 
+    box-shadow: 0 0 1px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 2px solid rgb(196, 161, 161);
+    border-right: 2px solid rgb(196, 161, 161);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.icons_entrar a {
+    position: relative;
+    display: inline-block;
+    padding: 4px;
+    font-size: 20px;
+    bottom: 0.4rem;
+    left: 4.2rem;
+}
+#facebook {
+    color: blue;
+}
+
+#twitter {
+    color: #00acee;
+}
+
+#instagram{
+    color: #be30ab;
+}
+
+.entrar_cadastro button {
+    position: relative;
+    background-color: transparent;
+    box-shadow: 0 0 1px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 3px solid rgb(196, 161, 161);
+    border-right: 3px solid rgb(196, 161, 161);
+    top: 5.6rem;
+    padding: 1px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+#cadastre_se {
+    position: relative;
+    display: inline-block;
+    margin-left: 2.5rem;
+    
+}
+
+.entrar_cadastro button:hover {
+    background-color: rgb(196, 161, 161);
+    color: black;
+}
+
+.rodape_menu {
+    font-size: 8.4px;
+    position: relative;
+    top: 4.6rem;
+    left: 5rem;
+}
+

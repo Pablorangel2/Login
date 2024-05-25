@@ -56,8 +56,8 @@ body {
     box-shadow: 0 0 10px rgb(196, 161, 161),
     0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
     4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;  
     border-radius: 1px;
-    outline: none;
 }
 
 #data-nascimento {
@@ -91,10 +91,10 @@ body {
     0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 4px;
-    width: 57%;
+    width: 85%;
     font-size: 12px;
     top: 1.6rem;
-    left: 3.8rem;
+    left: 0.2rem;
 }
 
 .formulario_de_registro button:hover {

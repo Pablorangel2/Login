@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
-    <link rel="stylesheet" href="menu_style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="cadastro.html">
     <link rel="stylesheet" href="redefinir_senha.html">
     <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="menu">
-        <h2>Login</h2>
+<div class="menu">
+    <h2>Login</h2>
+    <form method="POST" action="login.php">
         <div class="entrar">
-            <input type="email" id="menu_usuario" name="email"  placeholder="E-mail" required>
+            <input type="text" id="menu_usuario" name="usuario" placeholder="Usuario" required>
         </div>
         <div class="entrar">
-            <input type="password" name="password" id="menu_senha"  placeholder="Senha" required>
+            <input type="password" name="password" id="menu_senha" placeholder="Senha" required>
         </div>
         <div class="entrar_botoes">
-            <button onclick="entrar()">Entrar</button>
-            <button onclick="sair()">Sair</button>
+            <button type="submit">Entrar</button>
         </div>
-        <div class="entrar_cadastro">
-            <button id="cadastre_se" onclick="cadastre_se()">Cadastre-se</button>
-            <button id="resetar_senha" onclick="resetar_senha()">Esqueceu a senha?</button>
-        </div>
-        <div class="icons_entrar">
+    </form>
+    <div class="entrar_cadastro">
+        <button id="cadastre_se" onclick="cadastre_se()">Cadastre-se</button>
+        <button id="resetar_senha" onclick="resetar_senha()">Esqueceu a senha?</button>
+    </div>
+    <div class="icons_entrar">
+        <a id="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a id="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a id="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a id="discord" href="#"><i class="fa-brands fa-discord"></i></a>
+    </div>
+    <footer class="rodape_menu">
+        <p>&copy; Copyright @prssoares</p>
+    </footer>
+</div>
 
-            <a id="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a id="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a id="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a id="discord" href="#"><i class="fa-brands fa-discord"></i></a>
-        </div>
-
-        <footer class="rodape_menu">
-            <p> &copy; Copyright @prssoares</p>
-        </footer>
         <script>
             function cadastre_se() {
                 window.location.href = "cadastro.html"
