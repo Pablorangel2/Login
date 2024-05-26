@@ -58,6 +58,7 @@ body {
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;  
     border-radius: 1px;
+
 }
 
 #data-nascimento {
@@ -82,6 +83,27 @@ body {
     top: 5.6rem;
     
 }
+
+.grupo_de_entrada input[type="submit"] {
+    /* Estilos do botão */
+    background-color: rgb(196, 161, 161); 
+    border: none; /* Remove a borda */
+    color: black; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Torna o botão um bloco em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.grupo_de_entrada input[type="submit"]:hover {
+    
+    background-color: rgb(196, 161, 161); 
+    color: black;
+}
+
 .grupo_de_entrada_aceitar {
     position: relative;
     border: 1px solid rgb(196, 161, 161);
