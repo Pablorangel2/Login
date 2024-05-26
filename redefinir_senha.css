@@ -6,12 +6,12 @@ body {
 }
 .redefinir_senha {
     width: 240px;
-    height: 280px;
+    height: 200px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
-    border: 3px solid rgb(196, 161, 161);
-    box-shadow: 0 0 2px rgb(196, 161, 161),
+    border: 3px solid rgb(199, 178, 178);
+    box-shadow: 0 0 2px rgb(90, 3, 3),
     0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 4px;
@@ -21,7 +21,7 @@ body {
 h2 {
     border-bottom: 2px solid rgb(196, 161, 161);
     border-right: 2px solid rgb(196, 161, 161);
-    box-shadow: 0 0 2px rgb(196, 161, 161),
+    box-shadow: 0 0 2px rgb(199, 38, 38),
     0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 4px;
@@ -29,22 +29,14 @@ h2 {
     text-align: center;
     font-weight: bold;
     position: relative;
-    bottom: 1.2rem;
     font-size: 20px;
-}
-label {
-    display: block;
-    margin-bottom: 4px;
-    border-radius: 3px;
-    height: 1.1rem;
-    font-weight: bold;
-    font-size: 12px;
-   
+    background-color: rgb(238, 238, 238);
 }
 
-input {
+input[type="email"]{
     display: block;
     width: 90%;
+    font-weight: bold;
     height: 1.1rem;
     padding: 3px;
     border: 1px solid rgb(196, 161, 161);
@@ -54,13 +46,18 @@ input {
     0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 1px;
-    color: rgb(39, 68, 68);
+    color: rgb(0, 0, 0);
     margin-bottom: 4px;
     outline: none;
+    position: relative;
+    top: 1rem;
     
 }
-button {
+.redefinir_senha input[type="submit"] {
+    width: 40%;
+    height: 30%;
     position: relative;
+    font-size: 15px;
     top: 2.5rem;
     left: 4rem;
     padding: 3px;
@@ -72,11 +69,10 @@ button {
     4px 4px 5px 0px rgba(0, 0, 0, .1);
     border-radius: 2px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: rgb(238, 238, 238);
     font-weight: bold;
-    font-size: 12px;
 }
-button:hover {
-    background-color: rgb(196, 161, 161);
+.redefinir_senha input[type="submit"]:hover {
+    background-color: rgb(199, 178, 178);
     color: black;
 }

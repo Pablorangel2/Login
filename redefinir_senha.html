@@ -11,22 +11,19 @@
 <div class="redefinir_senha">
     <h2>Redefinir Senha</h2>
     <form action="script_redefinir_senha" method="post">
-        <label for="senha_antiga">Senha Antiga:</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="nova-senha">Nova Senha:</label>
-        <input type="password" id="nova-senha" name="nova-senha" required>
-
-        <label for="confirmar-nova-senha">Confirmar Nova Senha:</label>
-        <input type="password" id="confirmar-nova-senha" name="confirmar-nova-senha" required>
+        
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
    
-        <button type="submit" value="Redefinir_Senha" onclick="redefinir()">Redefinir Senha</button>
+        <input type="submit" value="Enviar" onclick="redefinir()"  ></input >
     </form>
 </div>
 <script >
     function redefinir() {
         window.location.href = "index.html"
+        alert('Email enviado com sucesso') 
     }
+
+    
 </script>
 
 </body>

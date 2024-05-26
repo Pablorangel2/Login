@@ -65,25 +65,6 @@ body {
     width: 8rem;
 }
 
-.formulario_de_registro button {
-    background-color: transparent;
-    color: black;
-    font-weight: bold;
-    padding: 2px 10px;
-    border: 1px solid rgb(196, 161, 161);
-    border-bottom: 5px solid rgb(196, 161, 161);
-    border-right: 4px solid rgb(196, 161, 161);
-    box-shadow: 0 0 4px rgb(196, 161, 161),
-    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
-    4px 4px 5px 0px rgba(0, 0, 0, .1);
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-    left: 4rem;
-    top: 5.6rem;
-    
-}
-
 .grupo_de_entrada input[type="submit"] {
     background-color: transparent;
     color: black;
@@ -99,8 +80,9 @@ body {
     border-radius: 4px;
     cursor: pointer;
     position: relative;
-    width: 40%;
-    left: 5rem;
+    width: 30%;
+    left: 2.7rem;
+    
 }
 
 .grupo_de_entrada input[type="submit"]:hover {
@@ -134,5 +116,3 @@ body {
     display: contents;
 }
     
-
-
