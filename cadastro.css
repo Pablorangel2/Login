@@ -85,8 +85,10 @@ body {
 }
 
 .grupo_de_entrada input[type="submit"] {
-    /* Estilos do botão */
+    
     background-color: rgb(196, 161, 161); 
+    font-weight: bold;
+    width: 50%;
     border: none; /* Remove a borda */
     color: black; /* Cor do texto */
     padding: 10px 20px; /* Espaçamento interno */
