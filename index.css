@@ -37,6 +37,24 @@ body {
     color: rgb(39, 68, 68);
     
 }
+.entrar input {
+    border-radius: 4px;
+    box-shadow: 0 0 1px #130503,
+    0px 0px 20px 0px rgba(0, 0, 0, 0.1), 
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
+    border: 1px solid rgb(196, 161, 161);
+    border-bottom: 4px solid rgb(196, 161, 161);
+    border-right: 3px solid rgb(196, 161, 161);
+    padding: 2;
+    position: relative;
+    outline: none;
+    width: 90%;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
 .entrar_botoes button:hover {
     background-color: rgb(196, 161, 161);
     color: black;;
@@ -53,7 +71,7 @@ body {
 .entrar_botoes button{
     cursor: pointer;
     position: relative;
-    left: 5.2rem;
+    left: 6.2rem;
     padding: 1px 5px 1px 5px;
     margin: auto 0;
     top: 1rem;
